@@ -96,3 +96,61 @@ export const userRows = [
     transaction: "€120.00",
   },
 ];
+
+export const productRows = [
+  {
+    id: 1,
+    name: "Digital product",
+    img: "https://wpblog.zyro.com/cdn-cgi/image/w=1200,q=85/wp-content/uploads/2021/05/Apps-best-digital-products-to-sell-scaled.jpg",
+    stock: 50,
+    status: "active",
+    price: "€120.00",
+  },
+  {
+    id: 2,
+    name: "Digital product",
+    img: "https://wpblog.zyro.com/cdn-cgi/image/w=1200,q=85/wp-content/uploads/2021/05/Apps-best-digital-products-to-sell-scaled.jpg",
+    stock: 50,
+    status: "active",
+    price: "€120.00",
+  },
+  {
+    id: 3,
+    name: "Digital product",
+    img: "https://wpblog.zyro.com/cdn-cgi/image/w=1200,q=85/wp-content/uploads/2021/05/Apps-best-digital-products-to-sell-scaled.jpg",
+    stock: 50,
+    status: "active",
+    price: "€120.00",
+  },
+  {
+    id: 4,
+    name: "Digital product",
+    img: "https://wpblog.zyro.com/cdn-cgi/image/w=1200,q=85/wp-content/uploads/2021/05/Apps-best-digital-products-to-sell-scaled.jpg",
+    stock: 50,
+    status: "active",
+    price: "€120.00",
+  },
+  {
+    id: 5,
+    name: "Digital product",
+    img: "https://wpblog.zyro.com/cdn-cgi/image/w=1200,q=85/wp-content/uploads/2021/05/Apps-best-digital-products-to-sell-scaled.jpg",
+    stock: 50,
+    status: "active",
+    price: "€120.00",
+  },
+];
+
+export const productData = [
+  {
+    month: "Jan",
+    Sales: 4000,
+  },
+  {
+    month: "Feb",
+    Sales: 3000,
+  },
+  {
+    month: "Mar",
+    Sales: 6000,
+  },
+];

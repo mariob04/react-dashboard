@@ -4,7 +4,7 @@ import "./NewUser.css";
 function NewUser() {
   return (
     <div className="newuser">
-      <h1 className="newuser__title">NewUser</h1>
+      <h1 className="newuser__title">New User</h1>
       <form action="" className="newuser__form">
         <div className="newuser__item">
           <label htmlFor="">Username</label>

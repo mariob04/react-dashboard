@@ -15,7 +15,7 @@ function UserList() {
   const columns = [
     { field: "id", headerName: "ID", width: 70 },
     {
-      field: "user",
+      field: "username",
       headerName: "Name",
       width: 160,
       renderCell: (params) => {
