@@ -8,10 +8,11 @@ import BorderAllIcon from "@material-ui/icons/BorderAll";
 import EuroIcon from "@material-ui/icons/Euro";
 import EqualizerIcon from "@material-ui/icons/Equalizer";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import ClearAllIcon from "@material-ui/icons/ClearAll";
+import DynamicFeedIcon from "@material-ui/icons/DynamicFeed";
 import MessageIcon from "@material-ui/icons/Message";
 import WorkIcon from "@material-ui/icons/Work";
 import ReportIcon from "@material-ui/icons/Report";
+import { Link } from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -20,10 +21,12 @@ function Sidebar() {
         <div className="sidebar__menu">
           <h3 className="sidebar__title">Dashboard</h3>
           <ul className="sidebar__list">
-            <li className="list__item">
-              <LineStyleIcon className="sidebar__icon" />
-              Home
-            </li>
+            <Link to="/" className="link">
+              <li className="list__item">
+                <LineStyleIcon className="sidebar__icon" />
+                Home
+              </li>
+            </Link>
             <li className="list__item">
               <TimelineIcon className="sidebar__icon" />
               Analytics
@@ -35,14 +38,18 @@ function Sidebar() {
           </ul>
           <h3 className="sidebar__title">Quick Menu</h3>
           <ul className="sidebar__list">
-            <li className="list__item">
-              <PersonIcon className="sidebar__icon" />
-              Users
-            </li>
-            <li className="list__item">
-              <BorderAllIcon className="sidebar__icon" />
-              Products
-            </li>
+            <Link to="/users" className="link">
+              <li className="list__item">
+                <PersonIcon className="sidebar__icon" />
+                Users
+              </li>
+            </Link>
+            <Link to="/products" className="link">
+              <li className="list__item">
+                <BorderAllIcon className="sidebar__icon" />
+                Products
+              </li>
+            </Link>
             <li className="list__item">
               <EuroIcon className="sidebar__icon" />
               Transactions
@@ -59,7 +66,7 @@ function Sidebar() {
               Mail
             </li>
             <li className="list__item">
-              <ClearAllIcon className="sidebar__icon" />
+              <DynamicFeedIcon className="sidebar__icon" />
               Feedback
             </li>
             <li className="list__item">
